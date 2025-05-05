@@ -1243,24 +1243,24 @@ end
 
 
 
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "melee", Default = false}); Toggle:OnChanged(function(Value)
+local Toggle = Tabs.hee:AddToggle("MyToggle", {Title = "melee", Default = false}); Toggle:OnChanged(function(Value)
     _G.Melee = Value
 end); Options.MyToggle:SetValue(false)
 
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "defense", Default = false}); Toggle:OnChanged(function(Value)
+local Toggle = Tabs.hee:AddToggle("MyToggle", {Title = "defense", Default = false}); Toggle:OnChanged(function(Value)
     _G.Defense = Value
 end); Options.MyToggle:SetValue(false)
 
 
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "sword", Default = false}); Toggle:OnChanged(function(Value)
+local Toggle = Tabs.hee:AddToggle("MyToggle", {Title = "sword", Default = false}); Toggle:OnChanged(function(Value)
     _G.Sword = Value
 end); Options.MyToggle:SetValue(false)
 
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "gun", Default = false}); Toggle:OnChanged(function(Value)
+local Toggle = Tabs.hee:AddToggle("MyToggle", {Title = "gun", Default = false}); Toggle:OnChanged(function(Value)
     _G.GunZ = Value
 end); Options.MyToggle:SetValue(false)
 
-local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Blox fruit", Default = false}); Toggle:OnChanged(function(Value)
+local Toggle = Tabs.hee:AddToggle("MyToggle", {Title = "Blox fruit", Default = false}); Toggle:OnChanged(function(Value)
     _G.Bloxfruit = Value
 end); Options.MyToggle:SetValue(false)
 
